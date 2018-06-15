@@ -7,6 +7,4 @@ services:
             - http_proxy
             - https_proxy
             - no_proxy
-    image: tmp_centos5_x86
-    volumes:
-    - ./output:/output
+    image: cubeearth/centos5-i386-vault
